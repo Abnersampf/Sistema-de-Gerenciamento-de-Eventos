@@ -1,0 +1,13 @@
+create table moradores(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(50),
+    apartamento VARCHAR(25)
+);
+
+create table evento(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    dataEvento VARCHAR(25),
+    nomeEvento VARCHAR(25),
+    apartamentoResponsavel VARCHAR(25),
+    quantidadePessoas INT
+); 
